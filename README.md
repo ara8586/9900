@@ -1,4 +1,4 @@
-# 》[TeleDiamond V2](https://telegram.me/antispamandhack)
+# 》[Mr_ahmadix](https://telegram.me/mr_ahmadix)
  
 #  و به ماستاره بدین star تو بالای همین صفحه بزنید رو
 # ♡=☆
@@ -123,7 +123,7 @@ screen ./launch.sh
 # اگه در هر صورت در نصب اتولانچ با روش 1 به مشکل خوردین راه دوم رو برین
 
 
-# 》[Mohammad](http://telegram.me/mrr619) سوالی یا مشکلی بود در خدمتم
+# 》[ara](http://telegram.me/mr_ahmadix) سوالی یا مشکلی بود در خدمتم
 
 # توضیحات بیشتر در کانال ما
 

@@ -1,5 +1,5 @@
 local function run(msg, matches)
-local telediamondsudo = [[
+local arabotsudo = [[
 ➖➖➖➖➖➖➖
 ➣Sudo Help
 ➣for ARAbotツ
@@ -65,7 +65,7 @@ Id robot supporter:@suport_arabot
 (👆برای افرادی که ریپورت هستند👆)
 ➖➖➖➖➖➖➖
 ]]
-local telediamond = [[
+local arabot = [[
 ➖➖➖➖➖➖➖
 👑لیست دستورات مدیریتی👑
 ➖➖➖➖➖➖➖ 
@@ -187,14 +187,14 @@ local telediamond = [[
 ❔حذف کسانی که حساب کاربری خود را حذف کرده اند
 
 ➰شما میتوانید از '/' یا '!' یا '#' برای اجرای دستورات استفاده کنید.
- ➖➖➖➖➖➖➖
- ARAbot
- 🆔:@mr_ahmadix
- Id robot supporter:@suport_arabot
- (👆برای افرادی که ریپورت هستند👆)
- ➖➖➖➖➖➖➖
+➖➖➖➖➖➖➖
+ARAbot
+🆔:@mr_ahmadix
+Id robot supporter:@suport_arabot
+(👆برای افرادی که ریپورت هستند👆)
+➖➖➖➖➖➖➖
  ]]
-local telediamond2 = [[
+local arabot2 = [[
 ➖➖➖➖➖➖➖
 🔐لیست دستورات قفلی:🔐
 ➖➖➖➖➖➖➖
@@ -293,14 +293,14 @@ local telediamond2 = [[
 
 ❌》قفل کردن آهنگ
 ✔️》بازکردن آهنگ
- ➖➖➖➖➖➖➖
- ARAbot
- 🆔:@mr_ahmadix
- Id robot supporter:@suport_arabot
- (👆برای افرادی که ریپورت هستند👆)
- ➖➖➖➖➖➖➖
+➖➖➖➖➖➖➖
+ARAbot
+🆔:@mr_ahmadix
+Id robot supporter:@suport_arabot
+(👆برای افرادی که ریپورت هستند👆)
+➖➖➖➖➖➖➖
 ]]
-local telediamond3 = [[
+local arabot3 = [[
 ➖➖➖➖➖➖➖
 🃏لیست دستورات فان:🃏
 ➖➖➖➖➖➖➖
@@ -345,7 +345,7 @@ local telediamond3 = [[
 
 ➰بجای کلمه یا متن موارد دلخواه خود را بنویسید.
 ]]
-local telediamond4 = [[
+local arabot4 = [[
 ✔️لیست دستورات مدیریتی سوپر گروه:
 🔱#info
 〽️نمایش اطلاعات کلی در مورد سوپر گروه
@@ -435,7 +435,7 @@ Id robot supporter:@suport_arabot
 (👆برای افرادی که ریپورت هستند👆)
 ➖➖➖➖➖➖➖
 ]]
-local telediamond5 = [[
+local arabot5 = [[
 ✔️لیست دستورات فان سوپر گروه:
 
 🔱#sticker
@@ -460,8 +460,16 @@ local telediamond5 = [[
 〽معنی کلمات انگلیسی٬ و فارسی ومعنی اسامی فارسی
 
 ✨بجای text کلمه مورد نظر خود را بنویسید.
+ 
+➖➖➖➖➖➖➖
+ARAbot
+🆔:@mr_ahmadix
+Id robot supporter:@suport_arabot
+(👆برای افرادی که ریپورت هستند👆)
+➖➖➖➖➖➖➖ 
+ 
 ]]
-local telediamond6 = [[
+local arabot6 = [[
 ✔️لیست دستورات قفلی سوپر گروه:
 🔱#lock text 
 🔱#unlock text
@@ -488,7 +496,7 @@ local telediamond6 = [[
 21)✖️operator
 22)✖️bots
 23)✖️edit
- 〽️قفل کردن
+〽️قفل کردن
 〽️باز کردن قفل
 1)✖️لینک
 2)✖️پی ام تکراری
@@ -527,49 +535,57 @@ local telediamond6 = [[
 
 ➰قفل سخت گیری:در صورتی که یکی از گزینه های بالا قفل باشد کاربر با انجام آن خودکار حذف میشود.
 مثلا وقتی لینک قفل باشد درصورتی که کاربر لینک ارسال کند هم لینک و هم کاربر در صورت قفل بودن سخت گیری حذف خواهند شد.
+➖➖➖➖➖➖➖
+ARAbot
+🆔:@mr_ahmadix
+Id robot supporter:@suport_arabot
+(👆برای افرادی که ریپورت هستند👆)
+➖➖➖➖➖➖➖
 ]]
-local telediamond7 = [[
-̴D̴̴i̴̴a̴̴m̴̴o̴̴n̴̴d̴ ̴C̴̴o̴̴m̴̴m̴̴a̴̴n̴̴d̴̴s̴ :
-
+local arabot7 = [[
+ ⒶⓇⒶ ⒷⓄⓉ:
 ✔️برای دیدن دستورات مورد نظر خود مورد دلخواه را ارسال کنید :
 
 ➰دستورات فارسی:
-☆دستورات قفلی
+🔐دستورات قفلی
 🎗》#راهنمای قفلی
-☆دستورات فان
+🃏دستورات فان
 🎗》#راهنمای فان
-☆دستورات مدیریتی
+👑دستورات مدیریتی
 🎗》#راهنمای مدیریتی
 
 ➖➖➖➖➖➖➖
 ➰English Commands:
 
-☆دستورات قفلی
+🔐دستورات قفلی
 🎗》#lockhelp
-☆دستورات فان
+🃏دستورات فان
 🎗》#funhelp
-☆دستورات مدیریتی
+👑دستورات مدیریتی
 🎗》#modhelp
-
-Join us:
-✔️  @antispamandhack
+➖➖➖➖➖➖➖
+ARAbot
+🆔:@mr_ahmadix
+Id robot supporter:@suport_arabot
+(👆برای افرادی که ریپورت هستند👆)
+➖➖➖➖➖➖➖
 ]]
     if matches[1] == 'راهنمای مدیریتی' and is_momod(msg) then
-        return telediamond  
+        return arabot 
   elseif matches[1] == 'sudohelp' and is_sudo(msg) or matches[1] == 'راهنمای سودو' and is_sudo(msg) then
-    return telediamondsudo
+    return arabotsudo
   elseif matches[1] == 'راهنمای قفلی' and is_momod(msg) then
-    return telediamond2
+    return arabot2
   elseif matches[1] == 'راهنمای فان' and is_momod(msg) then
-    return telediamond3
+    return arabot3
   elseif matches[1] == 'modhelp' and is_momod(msg) then
-    return telediamond4
+    return arabot4
   elseif matches[1] == 'funhelp' and is_momod(msg) then
-    return telediamond5
+    return arabot5
   elseif matches[1] == 'lockhelp' and is_momod(msg) then
-    return telediamond6
+    return arabot6
   elseif matches[1] == 'help' and is_momod(msg) or matches[1] == 'راهنما' and is_momod(msg) then
-    return telediamond7
+    return arabot7
   end
 end
 

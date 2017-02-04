@@ -11,7 +11,7 @@ deleted = deleted + 1
  kick_user(v.peer_id,msg.to.id)
  end
  end
- send_large_msg(receiver, deleted.." دیلیت اکانت ها از گروه حذف شدند") 
+ send_large_msg(receiver, deleted.." دیلیت اکانتی از گروه حذف شد") 
  end 
 local function run(msg, matches)
 if is_owner(msg) then

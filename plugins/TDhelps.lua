@@ -607,5 +607,5 @@ return {
       run = run,
 }
 
--- by @mrr619
--- ch @antispamandhack
+-- by @mr_ahmadix
+-- sp @suport_arabot

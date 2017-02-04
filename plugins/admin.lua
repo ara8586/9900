@@ -206,21 +206,21 @@ local function run(msg,matches)
     		return
     	end
       get_contact_list(get_contact_list_callback, {target = msg.from.id})
-      return "I've sent contact list with both json and text format to your private"
+      return "👤لیست مخاطبین ربات با 2فرمت text و json برای شما ارسال شد👤"
     end
     if matches[1] == "delcontact" then
 	    if not is_sudo(msg) then-- Sudo only
     		return
     	end
       del_contact("user#id"..matches[2],ok_cb,false)
-      return "User "..matches[2].." removed from contact list"
+      return "User "..matches[2].." 🚮مخاطب حذف شد🚮"
     end
-    if matches[1] == "addcontact" and is_sudo(msg) then
+    if matches[1] == "addcontact" and is_sudo(msg) or matches[1] == "ادد مخاطب" and is_sudo(msg) then
     phone = matches[2]
     first_name = matches[3]
     last_name = matches[4]
     add_contact(phone, first_name, last_name, ok_cb, false)
-   return "User With Phone +"..matches[2].." has been added"
+   return "مخاطب با شماره: +"..matches[2].." ✅اضافه شد"
 end
  if matches[1] == "sendcontact" and is_sudo(msg) then
     phone = matches[2]
@@ -240,7 +240,7 @@ end
 
     if matches[1] == "dialoglist" then
       get_dialog_list(get_dialog_list_callback, {target = msg.from.id})
-      return "I've sent a group dialog list with both json and text format to your private messages"
+      return "👤لیست مخاطبین گروه با 2فرمت text و json برای شما ارسال شد👤"
     end
     if matches[1] == "whois" then
       user_info("user#id"..matches[2],user_info_callback,{msg=msg})
@@ -261,7 +261,7 @@ end
 	if matches[1] == 'reload' then
 		receiver = get_receiver(msg)
 		reload_plugins(true)
-		post_msg(receiver, "》Reloaded all plugins!", ok_cb, false)
+		post_msg(receiver, "🔃تمام پلاگین ها دوباره بارگذاری شدند🔃", ok_cb, false)
 		return ""
 	end
 	--[[*For Debug*
@@ -329,6 +329,5 @@ return {
   run = run,
   pre_process = pre_process
 }
---By @imandaneshi :)
---https://github.com/SEEDTEAM/TeleSeed/blob/test/plugins/admin.lua
----Modified by @Rondoozle for supergroups
+--By @mr_ahmadix :)
+--sp @suport_arabot

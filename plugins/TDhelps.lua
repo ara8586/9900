@@ -2,7 +2,7 @@ local function run(msg, matches)
 local arabotsudo = [[
 ➖➖➖➖➖➖➖
 ➣Sudo Help
-➣for ARAbotツ
+➣for 🇮🇷🇦‌🇷‌🇦BOTツ🇮🇷
 ➖➖➖➖➖➖➖
 💢!add
 ❔اضافه کردن گروه به لیست مدیریت ربات

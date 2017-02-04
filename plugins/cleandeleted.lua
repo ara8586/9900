@@ -1,12 +1,9 @@
---return by @mrr619
--- channel @antispamandhack
-
 local function check_member_super_deleted(cb_extra, success, result)
 local receiver = cb_extra.receiver
  local msg = cb_extra.msg
   local deleted = 0 
 if success == 0 then
-send_large_msg(receiver, "first set me as admin!") 
+send_large_msg(receiver, "ابتدا من را مدیر کنید!") 
 end
 for k,v in pairs(result) do
   if not v.first_name and not v.last_name then
@@ -14,7 +11,7 @@ deleted = deleted + 1
  kick_user(v.peer_id,msg.to.id)
  end
  end
- send_large_msg(receiver, deleted.." Deleted account removed from group!") 
+ send_large_msg(receiver, deleted.." دیلیت اکانت ها از گروه حذف شدند") 
  end 
 local function run(msg, matches)
 if is_owner(msg) then
@@ -25,9 +22,9 @@ channel_get_users(receiver, check_member_super_deleted,{receiver = receiver, msg
  return {
        patterns = {
     "^[/#!](clean deleted)$",
-    "^[!#/](حذف دیلیت اکانتی ها)$",
+    "^[!#/](حذف دلیت اکانتی ها)$",
  },
 run = run,
 }
---return by @mrr619
--- channel @antispamandhack
+--by @mr_ahmadix
+--sp @suport_arabot

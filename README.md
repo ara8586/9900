@@ -1,24 +1,145 @@
-# [TeleDiamond](https://telegram.me/antispamandhack)
-
-l antispam system with custom sensitivity for each group**
-* **Multiple realms (admin groups)**
-* **Recalcitrant to any kind of spamming (X/Y bots, name/photo changers, etc.)**
-* **Global banning**
-* **Broadcast to all groups**
-* **Group and  links**
-* **Kick, ban and unban by reply**
-* **Groups, ban and global ban list**
-* **Logging anything that happens in a group**
-* **Invitation by username**
-* **Group administration via private messages**
-* **Only mods, owner and admin can add bots in groups**
-* **Arabic lock**
-* **Lock TgService**
-* **Chat list**
-* **And more!**
+# 》[TeleDiamond V2](https://telegram.me/antispamandhack)
+ 
+#  و به ماستاره بدین star تو بالای همین صفحه بزنید رو
+# ♡=☆
 
 
-* * *
+# برای نصب سورس کد زیر را در ترمینال وارد کنید
+
+```
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/Mohammadrezar/td.git && cd td && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+```
+# دقت کنید که کل کد رو وارد کنید
+
+# سپس شماره خود را با پیش شماره وارد کنید
++مثلا : 989111111111
+
+# سپس خود و خود ربات رو تو سرور سودو کنید
+
+# به سرور کانکت بشین و برین تو پوشه دیتا و فایل کانفیگ و ایدی عددی خود رو بزارید تو فایل کانفیگ
+
+```
+  sudo_users = {
+    110626080,
+    103649648,
+    111020322,
+    0,
+    YourID
+  }
+```
+
+
+برای اموزش دقیق تر کلیک کن
+# [آموزش سودو کردن](http://telegram.me/antispamandhack/267)
+
+# کسایی که سرورشون پولیه قسمت 1
+# و کسایی که سرورشون رایگانه(مثل سی 9)قسمت 2 رو انجام بدن
+
+# لطفا طبق نوع سرور خود پیش برید
+
+# 》1)
+# برای نصب اتولانچ اگه رباتتون رو یوزر اصلی یا روته قسمت (الف) و اگه رو یوزری بجز روته قسمت (ب) رو انجام بدین
+
+# الف)این کدهارو توی ترمینال بترتیب بزنید《
+
+```
+cd td
+
+sed -i "s/root/$(whoami)/g" etc/pika.conf
+
+sed -i "s_telegrambotpath_$(pwd)_g" etc/pika.conf
+
+sudo cp etc/pika.conf /etc/init/
+
+chmod 777 pika
+
+nohup ./pika &>/dev/null &
+
+sudo start pika
+
+screen ./pika
+
+```
+
+# etc ب)وارد سرور بشید،برین تو پوشه《
+# pika.confروی فایل 
+# کلیک کنید خب حالا باید ادیتش کنید
+# خط یکی مونده به اخر ینی این خط
+# setuid root 
+# بجای روت اسم یوزر خودتونو بنویسید ینی اینجوری
+# setuid emsuserton
+# خب حالا سیو کنیدو برین به ترمینال و این دستوراتو بزنین
+```
+cd td
+
+sed -i "s/username/$(whoami)/g" etc/pika.conf
+
+تو اینجا بجای 
+username
+اسم یوزر خودتون رو قرار بدین و تو ترمینال بزنین سپس
+
+sed -i "s_telegrambotpath_$(pwd)_g" etc/pika.conf
+
+sudo cp etc/pika.conf /etc/init/
+
+chmod 777 pika
+
+nohup ./pika &>/dev/null &
+
+sudo start pika
+
+screen ./pika
+```
+
+# خب تموم شد و ربات شما با این سورس ران شد
+
+# اگه رباتتون اف شد برین تو ترمینال و این دستوراتو بزنین
+```
+cd td
+killall screen
+killall telegram-cli
+sudo killall
+screen ./pika
+ 
+```
+
+# 》2)
+# تو ترمینال این دستورات رو وارد کنید
+```
+cd td
+
+screen ./launch.sh
+```
+
+# و اگه ربات اف شد
+```
+cd td
+
+killall screen
+
+screen ./launch.sh
+```
+
+# اگه در هر صورت در نصب اتولانچ با روش 1 به مشکل خوردین راه دوم رو برین
+
+
+# 》[Mohammad](http://telegram.me/mrr619) سوالی یا مشکلی بود در خدمتم
+
+# توضیحات بیشتر در کانال ما
+
+# برای ورود به کانال کلیک کن
+
+# 》[عضویت](http://telegram.me/antispamandhack)
+
+#  برای دریافت راهنما برای سودو ها دستور زیر را وارد کنید
+# راهنمای سودو!
+یا
+# !sudohelp
+
+# و راهنما های دیگه
+
+# !راهنما
+
 
 ## Commands
 TeleDiamond has several commands that are only usable at certain ranks.
@@ -231,8 +352,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/Mohammadrezar/telediamond.git -b supergroups
-cd telediamond
+git clone https://github.com/Mohammadrezar/td.git
+cd td
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -241,36 +362,8 @@ chmod +x launch.sh
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/Mohammadrezar/telediamond.git -b supergroups && cd telediamond && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/Mohammadrezar/td.git && cd td && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
-
-### Realm configuration
-
-After you run the bot for first time, send it `!id`. Get your ID and stop the bot.
-
-Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
-```
-  sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
-    YourID
-  }
-```
-Then restart the bot.
-
-Create a realm using the `!createrealm` command.
-
-* * *
-
-**Creating a LOG SuperGroup**
-	-For GBan Log
-
-	1. Create a group using the `!creategroup` command.
-	2. Add two members or bots, then use `#Tosuper` to convert to a SuperSroup.
-	3. Use the `#addlog` command and your ***LOG SuperGroup(s)*** will be set.
-	Note: you can set multiple Log SuperGroups
 

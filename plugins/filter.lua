@@ -71,7 +71,7 @@ function clear_commandsbad(msg, cmd_name)
 end
 
 local function run(msg, matches)
-  if matches[2] == 'filter'or matches[2] == 'فیلتر' then
+  if matches[2] == 'filter' then
   if not is_momod(msg) then
    return 'only for moderators'
   end
@@ -80,13 +80,13 @@ local function run(msg, matches)
   local text = addword(msg, name)
   return text
   end
-  if matches[2] == 'filterlist'or matches[2] == 'لیست فیلتر' then
+  if matches[2] == 'filterlist' then
   return list_variablesbad(msg)
-  elseif matches[2] == 'clean' or matches[2] == 'حذف' then
+  elseif matches[2] == 'clean' then
 if not is_momod(msg) then return '_|_' end
   local asd = '1'
     return clear_commandbad(msg, asd)
-  elseif matches[2] == 'unfilter'or matches[2] =='خ فیلتر' or matches[2] == 'rw' then
+  elseif matches[2] == 'unfilter' or matches[2] == 'rw' then
    if not is_momod(msg) then return '_|_' end
     return clear_commandsbad(msg, matches[3])
   else
@@ -98,15 +98,11 @@ end
 
 return {
   patterns = {
-  "^([!/#])(rw) (.*)$",
-  "^([!/#])(filter) (.*)$",
-   "^[!#/](فیلتر) (.*)$",
+   "^([!/#])(rw) (.*)$",
+   "^([!/#])(filter) (.*)$",
    "^([!/#])(unfilter) (.*)$",
-   "^[!#/](خ فیلتر) (.*)$",
-    "^([!/#])(filterlist)$",
-    "^[!#/](لیست فیلتر)$",
-    "^([!#/])(clean) filterlist$",
-    "^[@#/](حذف) لیست فیلتر$",
+   "^([!/#])(filterlist)$",
+   "^([!#/])(clean) filterlist$",
 "^(.+)$",
 	   
   },

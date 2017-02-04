@@ -2,7 +2,7 @@ local function run(msg, matches)
 local arabotsudo = [[
 ➖➖➖➖➖➖➖
 ➣Sudo Help
-➣for 🇮🇷🇦‌🇷‌🇦BOTツ🇮🇷
+➣for 🇮🇷ARA BOT🇮🇷
 ➖➖➖➖➖➖➖
 💢!add
 ❔اضافه کردن گروه به لیست مدیریت ربات
@@ -59,9 +59,9 @@ local arabotsudo = [[
 💢!remsudo
 ❔تنزل مقام کاربر از مقام سودو
 ➖➖➖➖➖➖➖
-ARAbot
-🆔:@mr_ahmadix
-Id robot supporter:@suport_arabot
+🇮🇷ARA BOT🇮🇷
+🆔Admin:@mr_ahmadix
+🆔Bot Supporter: @suport_arabot
 (👆برای افرادی که ریپورت هستند👆)
 ➖➖➖➖➖➖➖
 ]]
@@ -188,9 +188,9 @@ local arabot = [[
 
 ➰شما میتوانید از '/' یا '!' یا '#' برای اجرای دستورات استفاده کنید.
 ➖➖➖➖➖➖➖
-ARAbot
-🆔:@mr_ahmadix
-Id robot supporter:@suport_arabot
+🇮🇷ARA BOT🇮🇷
+🆔Admin:@mr_ahmadix
+🆔Bot Supporter: @suport_arabot
 (👆برای افرادی که ریپورت هستند👆)
 ➖➖➖➖➖➖➖
  ]]
@@ -294,9 +294,9 @@ local arabot2 = [[
 ❌》قفل کردن آهنگ
 ✔️》بازکردن آهنگ
 ➖➖➖➖➖➖➖
-ARAbot
-🆔:@mr_ahmadix
-Id robot supporter:@suport_arabot
+🇮🇷ARA BOT🇮🇷
+🆔Admin:@mr_ahmadix
+🆔Bot Supporter: @suport_arabot
 (👆برای افرادی که ریپورت هستند👆)
 ➖➖➖➖➖➖➖
 ]]
@@ -429,9 +429,9 @@ local arabot4 = [[
 ➰در صامت کردن زمان دار بجای X ساعت بجای Y دقیقه و بجای Z ثانیه را قرار بدید.
 
 ➖➖➖➖➖➖➖
-ARAbot
-🆔:@mr_ahmadix
-Id robot supporter:@suport_arabot
+🇮🇷ARA BOT🇮🇷
+🆔Admin:@mr_ahmadix
+🆔Bot Supporter: @suport_arabot
 (👆برای افرادی که ریپورت هستند👆)
 ➖➖➖➖➖➖➖
 ]]
@@ -462,9 +462,9 @@ local arabot5 = [[
 ✨بجای text کلمه مورد نظر خود را بنویسید.
  
 ➖➖➖➖➖➖➖
-ARAbot
-🆔:@mr_ahmadix
-Id robot supporter:@suport_arabot
+🇮🇷ARA BOT🇮🇷
+🆔Admin:@mr_ahmadix
+🆔Bot Supporter: @suport_arabot
 (👆برای افرادی که ریپورت هستند👆)
 ➖➖➖➖➖➖➖ 
  
@@ -536,9 +536,9 @@ local arabot6 = [[
 ➰قفل سخت گیری:در صورتی که یکی از گزینه های بالا قفل باشد کاربر با انجام آن خودکار حذف میشود.
 مثلا وقتی لینک قفل باشد درصورتی که کاربر لینک ارسال کند هم لینک و هم کاربر در صورت قفل بودن سخت گیری حذف خواهند شد.
 ➖➖➖➖➖➖➖
-ARAbot
-🆔:@mr_ahmadix
-Id robot supporter:@suport_arabot
+🇮🇷ARA BOT🇮🇷
+🆔Admin:@mr_ahmadix
+🆔Bot Supporter: @suport_arabot
 (👆برای افرادی که ریپورت هستند👆)
 ➖➖➖➖➖➖➖
 ]]
@@ -564,9 +564,9 @@ local arabot7 = [[
 👑دستورات مدیریتی
 🎗》#modhelp
 ➖➖➖➖➖➖➖
-ARAbot
-🆔:@mr_ahmadix
-Id robot supporter:@suport_arabot
+🇮🇷ARA BOT🇮🇷
+🆔Admin:@mr_ahmadix
+🆔Bot Supporter: @suport_arabot
 (👆برای افرادی که ریپورت هستند👆)
 ➖➖➖➖➖➖➖
 ]]

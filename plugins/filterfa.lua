@@ -80,7 +80,7 @@ local function run(msg, matches)
   local text = addword(msg, name)
   return text
   end
-  if matches[2] == 'filterlist' then
+  if matches[2] == 'لیست فیلتر' then
   return list_variablesbad(msg)
   elseif matches[2] == 'حذف' then
 if not is_momod(msg) then return '_|_' end

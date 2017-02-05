@@ -157,7 +157,7 @@ local function calc(exp)
    b,c = http.request(url)
    text = nil
   if c == 200 then
-    text = 'Result = '..b..'\n_____________________'
+    text = 'Result = '..b..'\n_____________________\n🇮🇷ARA BOT🇮🇷\n🆔Admin:@mr_ahmadix\n🆔Bot Supporter: @suport_arabot\n(👆برای افرادی که ری'
   elseif c == 400 then
     text = b
   else
@@ -434,7 +434,5 @@ patterns = {
 run = run,
 }
 
---edited by @blackwolf_admin 
---Create by @solid021
---edit by @mrr619
--- channel @antispamandhack
+-- by @mr_ahmadix
+-- sp @suport_arabot

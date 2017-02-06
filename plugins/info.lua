@@ -497,13 +497,13 @@ local function run(msg, matches)
 					.."رابط کاربری: "..hardware.."\n"
 					.."تعداد پیامها: "..user_info.msgs.."\n\n"
 					.."نام گروه: "..string.gsub(msg.to.print_name, "_", " ").."\n"
-					.."آی دی گروه: "..msg.to.id"\n"
-			                .."➖➖➖➖➖➖➖""\n"
-                                        .."🇮🇷ARA BOT🇮🇷""\n"
-                                        .."🆔Admin:@mr_ahmadix""\n"
-                                        .."🆔Bot Supporter: @suport_arabot""\n"
-                                        .."(👆برای افرادی که ریپورت هستند👆)""\n"
-                                        .."➖➖➖➖➖➖➖""\n"
+					.."آی دی گروه: "..msg.to.id.."\n"
+			                .."➖➖➖➖➖➖➖".."\n"
+                                        .."🇮🇷ARA BOT🇮🇷".."\n"
+                                        .."🆔Admin:@mr_ahmadix".."\n"
+                                        .."🆔Bot Supporter: @suport_arabot".."\n"
+                                        .."(👆برای افرادی که ریپورت هستند👆)".."\n"
+                                        .."➖➖➖➖➖➖➖".."\n"
 			return info
 		else
 			get_message(msg.reply_id, callback_reply, false)

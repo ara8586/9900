@@ -21,11 +21,22 @@ return {
   patterns = {
   "شارژ",
   "ایرانسل",
-  "irancell",
-  "ir-mci",
+   "ایرانسلی",
+  "[Ii]rancell",
+  "[Ii]r-mci",
   "همراه اول",
+        "همراه اولی",
   "رایتل",
+        "رایتلی",
   "تالیا",
+  "[Rr]ightel",
+        "[Rr]igh-tel",
+   "[Tt]alia",
+  "[Hh]amrahaval",
+  "[Hh]amrah-aval",
+  "ir-mci",      
   },
   run = run
 }
+-- by @mr_ahamdix
+-- sp @suport_arabot

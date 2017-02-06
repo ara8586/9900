@@ -1,6 +1,3 @@
--- by @Blackwolf_admin 
---edit by @Mrr619
--- channel : @antispamandhack
 do
 local function pre_process(msg)
  local hash = 'muteall:'..msg.to.id
@@ -17,7 +14,7 @@ local function run(msg, matches)
               redis:set(hash, true)
              return "mute all has been enabled"
  else
--- by @Blackwolf_admin 
+-- by @mr_ahmadix
 local hour = string.gsub(matches[2], 'h', '')
  local num1 = tonumber(hour) * 3600
 local minutes = string.gsub(matches[3], 'm', '')
@@ -48,6 +45,5 @@ run = run,
   pre_process = pre_process
 }
 end
--- by @Blackwolf_admin 
--- edit by @Mrr619
--- our channel : @antispamandhack 
+-- by @mr_ahmadix
+-- sp @suport_arabot

@@ -62,7 +62,7 @@ function run(msg,matches)
     if msg.to.type == "channel" then
     return lock_edit(msg)
     else
-      return "Only in SuperGroups"
+      return "Only in SuperGroups\n➖➖➖➖➖➖➖\nفقط در سوپر گروه عمل میکند"
     end
   elseif matches[1] == "unlock" then
     if msg.to.type == "channel" then
@@ -84,3 +84,5 @@ return {
 }
 
 end
+-- by @mr_ahmadix
+-- sp @suport_arabot

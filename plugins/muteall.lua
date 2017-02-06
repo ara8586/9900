@@ -23,7 +23,7 @@ local second = string.gsub(matches[4], 's', '')
  local num3 = tonumber(second) 
 local num4 = tonumber(num1 + num2 + num3)
 redis:setex(hash, num4, true)
- return "گروه به مدت\n⏺"..matches[2].."ساعت\n⏺"..matches[3].."دقیقه \n⏺"..matches[4].."ثانیه\nقفل میباشد\n➖➖➖➖➖➖➖\n🇮🇷ARA BOT🇮🇷\n🆔Admin:@mr_ahmadix\n🆔Bot Supporter: @suport_arabot\n(👆برای افرادی که ریپورت هستند👆)\n➖➖➖➖➖➖➖"
+ return "گروه به مدت\n⏳"..matches[2].."ساعت\n⏳"..matches[3].."دقیقه \n⏳"..matches[4].."ثانیه\n🔒قفل میباشد\n➖➖➖➖➖➖➖\n🇮🇷ARA BOT🇮🇷\n🆔Admin:@mr_ahmadix\n🆔Bot Supporter: @suport_arabot\n(👆برای افرادی که ریپورت هستند👆)\n➖➖➖➖➖➖➖"
  end
  end
 if matches[1] == 'unmuteall' and is_momod(msg) or matches[1] =='بازکردن همه' and is_momod(msg) then

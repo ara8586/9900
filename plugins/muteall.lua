@@ -29,7 +29,7 @@ redis:setex(hash, num4, true)
 if matches[1] == 'unmuteall' and is_momod(msg) or matches[1] =='بازکردن همه' and is_momod(msg) then
                local hash = 'muteall:'..msg.to.id
         redis:del(hash)
-          return "ارسال در گروه آزاد شد\nmute all has been disabled"
+          return "ارسال در گروه آزاد شد\n➖➖➖➖➖➖➖\nmute all has been disabled"
   end
 end
 return {

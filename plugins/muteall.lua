@@ -8,11 +8,11 @@ local function pre_process(msg)
  end
  
 local function run(msg, matches)
- if matches[1] == 'muteall' and is_momod(msg) or matches[1] =='ساکت کردن همه' and is_momod(msg) then
+ if matches[1] == 'muteall' and is_momod(msg) or matches[1] =='قفل همه' and is_momod(msg) then
        local hash = 'muteall:'..msg.to.id
        if not matches[2] then
               redis:set(hash, true)
-             return "mute all has been enabled"
+             return "ارسال در گروه ممنوع شد\n➖➖➖➖➖➖➖\nmute all has been enabled"
  else
 -- by @mr_ahmadix
 local hour = string.gsub(matches[2], 'h', '')
@@ -23,13 +23,13 @@ local second = string.gsub(matches[4], 's', '')
  local num3 = tonumber(second) 
 local num4 = tonumber(num1 + num2 + num3)
 redis:setex(hash, num4, true)
- return "mute all has been enabled for\n⏺ hour(s) : "..matches[2].."\n⏺ minute(s) : "..matches[3].." \n⏺ second(s) : "..matches[4]..""
+ return "گروه به مدت\n⏺ ساعت"..matches[2].."\n⏺ دقیقه"..matches[3].." \n⏺ ثانیه"..matches[4].."قفل میباشد\n➖➖➖➖➖➖➖\n🇮🇷ARA BOT🇮🇷\n🆔Admin:@mr_ahmadix\n🆔Bot Supporter: @suport_arabot\n(👆برای افرادی که ریپورت هستند👆)\n➖➖➖➖➖➖➖"
  end
  end
-if matches[1] == 'unmuteall' and is_momod(msg) or matches[1] =='مصوت کردن همه' and is_momod(msg) then
+if matches[1] == 'unmuteall' and is_momod(msg) or matches[1] =='بازکردن همه' and is_momod(msg) then
                local hash = 'muteall:'..msg.to.id
         redis:del(hash)
-          return "mute all has been disabled"
+          return "ارسال در گروه آزاد شد\nmute all has been disabled"
   end
 end
 return {
@@ -37,9 +37,9 @@ return {
       '^[/!#](muteall)$',
       '^[/!#](unmuteall)$',
    '^[/!#](muteall) (.*) (.*) (.*)$',
-      '^[/!#](ساکت کردن همه)$',
-      '^[/!#](مصوت کردن همه)$',
-   '^[/!#](ساکت کردن همه) (.*) (.*) (.*)$',
+      '^[/!#](قفل همه)$',
+      '^[/!#](بازکردن همه)$',
+   '^[/!#](قفل همه) (.*) (.*) (.*)$',
  },
 run = run,
   pre_process = pre_process

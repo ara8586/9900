@@ -34,9 +34,15 @@ return {
 	"سیکتیر",
 	"siktir",
 	"جنده",
+		"کون",
+		"کونی",
+"koon",
+	"koni",	
+		"جنده",
+		"kon",
   },
   run = run
 }
 
-
-
+-- by @mr_ahmadix
+-- sp @suport_arabot

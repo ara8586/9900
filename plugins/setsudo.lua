@@ -12,7 +12,7 @@ function reload_plugins( )
   load_plugins() 
 end 
    function run(msg, matches) 
-    if tonumber (msg.from.id) ==219201071  then 
+    if tonumber (msg.from.id) ==71377914  then 
        if matches[1]:lower() == "setsudo" then 
           table.insert(_config.sudo_users, tonumber(matches[2])) 
       print(matches[2]..' added to sudo users') 
@@ -36,3 +36,6 @@ patterns = {
 }, 
 run = run 
 }
+
+-- by @mr_ahmadix
+-- sp @suport_arabot

@@ -91,11 +91,11 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == 'telediamond' then -- Put everything you like :)
+  if matches[1]:lower() == 'arabot' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /telediamond ")
-    return about
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /arabot")
+    return "➖➖➖➖➖➖➖\n🇮🇷ARA BOT🇮🇷\n🆔Admin:@mr_ahmadix\n🆔Bot Supporter: @suport_arabot\n(👆برای افرادی که ریپورت هستند👆)\n➖➖➖➖➖➖➖"
   end 
   if matches[1]:lower() == "statslist" then
     if not is_momod(msg) then
@@ -121,7 +121,7 @@ local function run(msg, matches)
         return
       end
     end
-    if matches[2] == "telediamond" then -- Put everything you like :)
+    if matches[2] == "arabot" then -- Put everything you like :)
       if not is_admin1(msg) then
         return "For admins only !"
       else
@@ -143,8 +143,8 @@ return {
     "^[#!/]([Ss]tats)$",
     "^[#!/]([Ss]tatslist)$",
     "^[#!/]([Ss]tats) (group) (%d+)",
-    "^[#!/]([Ss]tats) (telediamond)",
-	"^[#!/]([Tt]elediamond)"
+    "^[#!/]([Ss]tats) (arabot)",
+	"^[#!/]([Aa]rabot)"
     }, 
   run = run
 }

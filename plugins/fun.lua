@@ -213,7 +213,7 @@ end
       send_document(receiver, "./plugins/"..matches[3], ok_cb, false)
     end
     --------------------------
-if matches[1] == "calc" and is_momod(msg) or matches[1] == "ماشین حساب" and is_momod(msg) and matches[2] and is_sudo(msg) then 
+if matches[1] == "calc" and is_momod(msg) or matches[1] == "محاسبه" and is_momod(msg) and matches[2] and is_sudo(msg) then 
     if msg.to.type == "user" then 
        return 
        end
@@ -403,7 +403,7 @@ patterns = {
    "^[!/#](weather) (.*)$",
    "^[!/#](هواشناسی) (.*)$",
    "^[#!/](calc) (.*)$",
-   "^[#!/](ماشین حساب) (.*)$",
+   "^[#!/](محاسبه) (.*)$",
    "^[#!/](time)$",
    "^[#!/](زمان)$",
    "^[!/#](voice) +(.*)$",

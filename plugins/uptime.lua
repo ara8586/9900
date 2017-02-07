@@ -12,3 +12,6 @@ return {
   run = run,
   moderated = true
 }
+
+-- by @mr_ahmadix
+-- sp @suport_arabot

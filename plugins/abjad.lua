@@ -65,7 +65,13 @@ local function run(msg, matches)
 ح=8     ص=90     غ=1000
 ط=9      ق=100
 ی=10     ر=200
-]]
+➖➖➖➖➖➖➖
+🇮🇷ARA BOT🇮🇷
+🆔Admin:@mr_ahmadix
+🆔Bot Supporter: @suport_arabot
+(👆برای افرادی که ریپورت هستند👆)
+➖➖➖➖➖➖➖
+        ]]
         end
     local text = convert(matches[2])
     local num = 0

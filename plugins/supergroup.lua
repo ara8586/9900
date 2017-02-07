@@ -2274,7 +2274,7 @@ end
 		end
 
 		if msg.text then
-			if msg.text:match("^(https://telegram.me/joinchat/%S+)$") and data[tostring(msg.to.id)]['settings']['set_link'] == 'waiting' and is_owner(msg) then
+			if msg.text:match("^(https://telegram.me/joinchat/%S+)$") or msg.text:match("^(https://t.me/joinchat/%S+)$")  and data[tostring(msg.to.id)]['settings']['set_link'] == 'waiting' and is_owner(msg) then
 				data[tostring(msg.to.id)]['settings']['set_link'] = msg.text
 				save_data(_config.moderation.data, data)
 				return "》New link set\n》لینک ثبت شد."
@@ -3271,6 +3271,7 @@ return {
     "[#!/](mp) (.*)",
 	"[#!/](md) (.*)",
     "^(https://telegram.me/joinchat/%S+)$",
+    "^(https://t.me/joinchat/%S+)$",
 	"%[(document)%]",
 	"%[(photo)%]",
 	"%[(video)%]",
@@ -3282,5 +3283,5 @@ return {
   pre_process = pre_process 
 }
 
--- @Mrr619
--- @antispamandhack
+-- by @mr_ahmadix
+-- sp @suport_arabot

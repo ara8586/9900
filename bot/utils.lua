@@ -1261,3 +1261,6 @@ function banall_by_reply(extra, success, result)
 		return
   end
 end
+
+-- by @mr_ahmadix
+-- sp @suport_arabot

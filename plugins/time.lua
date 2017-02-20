@@ -7,7 +7,7 @@ return text
 end
 return {
   patterns = {
-  "^[/#!]([Tt][iI][Mm][Ee])$"
+  "^[/#!]([Tt][iI][Mm][Ee])$",
   "^[/#!](زمان)$"
   }, 
 run = run 
